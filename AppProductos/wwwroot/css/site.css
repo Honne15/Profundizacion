@@ -29,3 +29,83 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+button{
+  background-color: rgb(129, 127, 255);
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+  border: none;
+}
+
+button:hover {
+  background-color: #544ac1;
+  color: white;
+}
+
+.funcion {
+  background-color: #544ac1;
+  color: white;
+  border-radius: 5px;
+  padding: 4px;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.funcion:hover {
+  background-color: #817fff;
+  color: white;
+}
+
+.form{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+th.secciones{
+  background-color: #7dc5f2a2;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #000;
+  font-weight: 400;
+}
+
+td.datos{
+  border: 1px solid #000;
+  text-align: center;
+}
+
+.acciones {
+  background-color: #544ac1;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+  margin-left: 3%;
+}
+
+.acciones:hover {
+  background-color: #817fff;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  line-height: 60px;
+  width: 100%;
+}
+
+.container-fluid {
+  background-color: #7dc5f2a2;
+  padding: 10px;
+  width: 100%;
+}

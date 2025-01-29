@@ -577,11 +577,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\source\\repos\\NET\\AppProductos\\AppProductos.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProductos\\AppProductos.csproj",
       "projectName": "AppProductos",
-      "projectPath": "C:\\Users\\USER\\source\\repos\\NET\\AppProductos\\AppProductos.csproj",
+      "projectPath": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProductos\\AppProductos.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\source\\repos\\NET\\AppProductos\\obj\\",
+      "outputPath": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProductos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

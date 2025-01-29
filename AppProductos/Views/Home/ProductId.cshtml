@@ -1,10 +1,11 @@
-@model IEnumerable<AppProductos.Models.Producto>
+@model AppProductos.Models.Producto
 @{
     ViewData["Title"] = "Products page";
 }
 
 <h2>Lista de Productos</h2>
 <a href="/Home/AddProduct" class="funcion">Agregar Producto</a>
+<a href="/Home/Products" class="funcion">Ver Todos</a>
 
 <form method="get" asp-action="ProductId" class="form">
     <label for="id">ID del Producto:</label>
@@ -23,17 +24,17 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var producto in Model)
+        @if (Model != null)
         {
             <tr>
-                <td class="datos">@producto.Nombre</td>
-                <td class="datos">@producto.Descripcion</td>
-                <td class="datos">@producto.Precio</td>
-                <td class="datos">@producto.Categoria</td>
+                <td class="datos">@Model.Nombre</td>
+                <td class="datos">@Model.Descripcion</td>
+                <td class="datos">@Model.Precio</td>
+                <td class="datos">@Model.Categoria</td>
                 <td class="datos">
-                    <a asp-action="UpdateProduct" asp-route-id="@producto.Id" class="acciones">Actualizar</a>
+                    <a asp-action="UpdateProduct" asp-route-id="@Model.Id" class="acciones">Actualizar</a>
                     <form asp-action="DeleteProduct" method="post" style="display:inline;">
-                        <input type="hidden" name="id" value="@producto.Id" />
+                        <input type="hidden" name="id" value="@Model.Id" />
                         <button type="submit" class="acciones">Eliminar</button>
                     </form>
                 </td>

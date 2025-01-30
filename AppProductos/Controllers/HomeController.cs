@@ -26,67 +26,6 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult Products()
-    {
-        var productos = _productoService.ObtenerTodos();
-        return View(productos);
-    }
-
-    public IActionResult ProductId(int id)
-    {
-        var producto = _productoService.ObtenerPorId(id);
-        return View(producto);
-    }
-
-    public IActionResult AddProduct()
-    {
-        return View();
-    }
-
-    public IActionResult UpdateProduct()
-    {
-        return View();
-    }
-
-    [HttpPost]
-    public IActionResult AddProduct(Producto producto)
-    {
-        if (ModelState.IsValid)
-        {
-            _productoService.Agregar(producto);
-            return RedirectToAction("Products");
-        }
-        return View(producto);
-    }
-
-    [HttpGet]
-    public IActionResult UpdateProduct(int id)
-    {
-        var producto = _productoService.ObtenerPorId(id);
-        return View(producto);
-    }
-
-    [HttpPost]
-    public IActionResult UpdateProduct(Producto producto)
-    {
-        if (ModelState.IsValid)
-        {
-            _productoService.Actualizar(producto);
-            return RedirectToAction("Products");
-        }
-        return View(producto);
-    }
-
-     [HttpPost]
-    public IActionResult DeleteProduct(int id)
-    {
-        var producto = _productoService.ObtenerPorId(id);
-        if (producto != null)
-        {
-            _productoService.Eliminar(producto);
-        }
-        return RedirectToAction("Products");
-    }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

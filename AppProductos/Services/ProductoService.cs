@@ -5,11 +5,12 @@ namespace AppProductos.Services;
 
 public interface IProductoService
 {
-    IEnumerable<Producto> ObtenerTodos();
+    IEnumerable<Producto> ObtenerTodos(string? criterio);
     Producto ObtenerPorId(int id);
     void Agregar(Producto producto);
     void Actualizar(Producto producto);
-    void Eliminar(Producto producto);
+
+    void Eliminar(int id);
 }
 
 public class ProductoService : IProductoService
@@ -21,9 +22,21 @@ public class ProductoService : IProductoService
         _productoRepository = productoRepository;
     }
 
-    public IEnumerable<Producto> ObtenerTodos()
+    public IEnumerable<Producto> ObtenerTodos(string? criterio)
     {
-        return _productoRepository.ObtenerTodos();
+        var productos = _productoRepository.ObtenerTodos();
+
+        if(!string.IsNullOrWhiteSpace(criterio)) 
+        {
+            productos = productos.Where(p => 
+            p.Nombre.Contains(criterio, StringComparison.OrdinalIgnoreCase) || 
+            p.Descripcion.Contains(criterio, StringComparison.OrdinalIgnoreCase) ||
+            p.Precio.ToString().Contains(criterio, StringComparison.OrdinalIgnoreCase) ||
+            p.Categoria.Contains(criterio, StringComparison.OrdinalIgnoreCase));
+            
+        }
+
+        return productos;
     }
 
     public Producto ObtenerPorId(int id)
@@ -41,8 +54,9 @@ public class ProductoService : IProductoService
         _productoRepository.Actualizar(producto);
     }
 
-    public void Eliminar(Producto producto)
+    public void Eliminar(int id)
     {
-        _productoRepository.Eliminar(producto);
+        _productoRepository.Eliminar(id);
     }
+
 }

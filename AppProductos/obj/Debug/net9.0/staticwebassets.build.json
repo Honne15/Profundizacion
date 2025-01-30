@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ybu7W4ndbXjSl645BcqqJchMOIxtdXDmGulWeP8N1R0=",
+  "Hash": "4Ajta+NusfFv3dD+eW/0BInAEIfgTMTYdoYuDIq03Hw=",
   "Source": "AppProductos",
   "BasePath": "_content/AppProductos",
   "Mode": "Default",
@@ -437,12 +437,12 @@
       "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProductos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProductos\\obj\\Debug\\net9.0\\compressed\\8a7knzd8ve-96kbzs1p04.gz",
+      "Identity": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProductos\\obj\\Debug\\net9.0\\compressed\\8a7knzd8ve-mrhns598rr.gz",
       "SourceId": "AppProductos",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProductos\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/AppProductos",
-      "RelativePath": "css/site#[.{fingerprint=96kbzs1p04}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=mrhns598rr}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -451,8 +451,8 @@
       "RelatedAsset": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProductos\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "o6hqyp5gzi",
-      "Integrity": "gI/O+IcPxyl5VxOoAsKRaHT+7AYc5Pfb0IXv7iQ8gPs=",
+      "Fingerprint": "2az0rrv6hs",
+      "Integrity": "mmkt+dHauWtHcDZHanw/Sir//T23C5sDZqv99N9C4Gw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProductos\\wwwroot\\css\\site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "96kbzs1p04",
-      "Integrity": "4X2WTqDsU20lFYWbaqvdIbRRe4fghIUK1au5k0Z0RbI=",
+      "Fingerprint": "mrhns598rr",
+      "Integrity": "shnEiCNgEOFsYGDzklirMCpg6BQNPE3SVHW7A6TAy74=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -3324,13 +3324,13 @@
       ]
     },
     {
-      "Route": "css/site.96kbzs1p04.css",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProductos\\obj\\Debug\\net9.0\\compressed\\8a7knzd8ve-96kbzs1p04.gz",
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProductos\\obj\\Debug\\net9.0\\compressed\\8a7knzd8ve-mrhns598rr.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001623376623"
+          "Quality": "0.001577287066"
         }
       ],
       "ResponseHeaders": [
@@ -3340,19 +3340,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "615"
+          "Value": "633"
         },
         {
           "Name": "ETag",
-          "Value": "\"gI/O+IcPxyl5VxOoAsKRaHT+7AYc5Pfb0IXv7iQ8gPs=\""
+          "Value": "\"mmkt+dHauWtHcDZHanw/Sir//T23C5sDZqv99N9C4Gw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 03:29:44 GMT"
+          "Value": "Thu, 30 Jan 2025 21:42:29 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -3368,26 +3368,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"4X2WTqDsU20lFYWbaqvdIbRRe4fghIUK1au5k0Z0RbI=\""
+          "Value": "W/\"shnEiCNgEOFsYGDzklirMCpg6BQNPE3SVHW7A6TAy74=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "96kbzs1p04"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-4X2WTqDsU20lFYWbaqvdIbRRe4fghIUK1au5k0Z0RbI="
+          "Value": "sha256-shnEiCNgEOFsYGDzklirMCpg6BQNPE3SVHW7A6TAy74="
         }
       ]
     },
     {
-      "Route": "css/site.96kbzs1p04.css",
+      "Route": "css/site.css",
       "AssetFile": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProductos\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3397,7 +3389,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1929"
+          "Value": "2231"
         },
         {
           "Name": "Content-Type",
@@ -3405,11 +3397,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4X2WTqDsU20lFYWbaqvdIbRRe4fghIUK1au5k0Z0RbI=\""
+          "Value": "\"shnEiCNgEOFsYGDzklirMCpg6BQNPE3SVHW7A6TAy74=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 03:29:44 GMT"
+          "Value": "Thu, 30 Jan 2025 21:42:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-shnEiCNgEOFsYGDzklirMCpg6BQNPE3SVHW7A6TAy74="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProductos\\obj\\Debug\\net9.0\\compressed\\8a7knzd8ve-mrhns598rr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "633"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mmkt+dHauWtHcDZHanw/Sir//T23C5sDZqv99N9C4Gw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 21:42:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mmkt+dHauWtHcDZHanw/Sir//T23C5sDZqv99N9C4Gw="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.mrhns598rr.css",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProductos\\obj\\Debug\\net9.0\\compressed\\8a7knzd8ve-mrhns598rr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001577287066"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "633"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mmkt+dHauWtHcDZHanw/Sir//T23C5sDZqv99N9C4Gw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 21:42:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"shnEiCNgEOFsYGDzklirMCpg6BQNPE3SVHW7A6TAy74=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mrhns598rr"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-shnEiCNgEOFsYGDzklirMCpg6BQNPE3SVHW7A6TAy74="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.mrhns598rr.css",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProductos\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2231"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"shnEiCNgEOFsYGDzklirMCpg6BQNPE3SVHW7A6TAy74=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 21:42:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3419,7 +3556,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "96kbzs1p04"
+          "Value": "mrhns598rr"
         },
         {
           "Name": "label",
@@ -3427,13 +3564,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-4X2WTqDsU20lFYWbaqvdIbRRe4fghIUK1au5k0Z0RbI="
+          "Value": "sha256-shnEiCNgEOFsYGDzklirMCpg6BQNPE3SVHW7A6TAy74="
         }
       ]
     },
     {
-      "Route": "css/site.96kbzs1p04.css.gz",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProductos\\obj\\Debug\\net9.0\\compressed\\8a7knzd8ve-96kbzs1p04.gz",
+      "Route": "css/site.mrhns598rr.css.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProductos\\obj\\Debug\\net9.0\\compressed\\8a7knzd8ve-mrhns598rr.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3442,7 +3579,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "615"
+          "Value": "633"
         },
         {
           "Name": "Content-Type",
@@ -3450,11 +3587,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gI/O+IcPxyl5VxOoAsKRaHT+7AYc5Pfb0IXv7iQ8gPs=\""
+          "Value": "\"mmkt+dHauWtHcDZHanw/Sir//T23C5sDZqv99N9C4Gw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 03:29:44 GMT"
+          "Value": "Thu, 30 Jan 2025 21:42:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3472,7 +3609,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "96kbzs1p04"
+          "Value": "mrhns598rr"
         },
         {
           "Name": "label",
@@ -3480,144 +3617,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-gI/O+IcPxyl5VxOoAsKRaHT+7AYc5Pfb0IXv7iQ8gPs="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProductos\\obj\\Debug\\net9.0\\compressed\\8a7knzd8ve-96kbzs1p04.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001623376623"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "615"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gI/O+IcPxyl5VxOoAsKRaHT+7AYc5Pfb0IXv7iQ8gPs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 03:29:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"4X2WTqDsU20lFYWbaqvdIbRRe4fghIUK1au5k0Z0RbI=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-4X2WTqDsU20lFYWbaqvdIbRRe4fghIUK1au5k0Z0RbI="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProductos\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1929"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4X2WTqDsU20lFYWbaqvdIbRRe4fghIUK1au5k0Z0RbI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 03:29:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-4X2WTqDsU20lFYWbaqvdIbRRe4fghIUK1au5k0Z0RbI="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProductos\\obj\\Debug\\net9.0\\compressed\\8a7knzd8ve-96kbzs1p04.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "615"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gI/O+IcPxyl5VxOoAsKRaHT+7AYc5Pfb0IXv7iQ8gPs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 03:29:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-gI/O+IcPxyl5VxOoAsKRaHT+7AYc5Pfb0IXv7iQ8gPs="
+          "Value": "sha256-mmkt+dHauWtHcDZHanw/Sir//T23C5sDZqv99N9C4Gw="
         }
       ]
     },

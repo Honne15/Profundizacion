@@ -4,11 +4,10 @@
 }
 
 <h2>Lista de Productos</h2>
-<a href="/Home/AddProduct" class="funcion">Agregar Producto</a>
+<a href="/Product/Add" class="funcion">Agregar Producto</a>
 
-<form method="get" asp-action="ProductId" class="form">
-    <label for="id">ID del Producto:</label>
-    <input type="number" id="id" name="id" required>
+<form method="get" class="form">
+    <input type="text" name="searchTerm" value="@ViewBag.SearchTerm" placeholder="Buscar Producto" />
     <button type="submit">Buscar</button>
 </form>
 
@@ -31,11 +30,8 @@
                 <td class="datos">@producto.Precio</td>
                 <td class="datos">@producto.Categoria</td>
                 <td class="datos">
-                    <a asp-action="UpdateProduct" asp-route-id="@producto.Id" class="acciones">Actualizar</a>
-                    <form asp-action="DeleteProduct" method="post" style="display:inline;">
-                        <input type="hidden" name="id" value="@producto.Id" />
-                        <button type="submit" class="acciones">Eliminar</button>
-                    </form>
+                    <a href="/Product/Edit/@producto.Id" class="acciones">Editar</a>
+                    <a href="/Product/Delete/@producto.Id" class="acciones">Eliminar</a>
                 </td>
             </tr>
         }

@@ -1,0 +1,33 @@
+@model AppProductos.Models.Producto;
+
+<h2>Eliminar Producto</h2>
+
+<p>¿Estás seguro de que deseas eliminar este producto?</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th class="secciones">Nombre</th>
+            <th class="secciones">Descripción</th>
+            <th class="secciones">Precio</th>
+            <th class="secciones">Categoría</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            <tr>
+                <td class="datos">@Model.Nombre</td>
+                <td class="datos">@Model.Descripcion</td>
+                <td class="datos">@Model.Precio</td>
+                <td class="datos">@Model.Categoria</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<form asp-action="ConfirmDelete" method="post">
+    <input type="hidden" asp-for="Id"/>
+    <button type="submit" class="acciones">Eliminar</button>
+    <a href="/Product" class="cancelar">Cancelar</a>
+</form>

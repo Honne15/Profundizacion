@@ -9,7 +9,7 @@ public interface IProductoRepository
     Producto ObtenerPorId(int id);
     void Agregar(Producto producto);
     void Actualizar(Producto producto);
-    void Eliminar(Producto producto);
+    void Eliminar(int id);
 }
 
 public class ProductoRepository : IProductoRepository
@@ -26,16 +26,8 @@ public class ProductoRepository : IProductoRepository
         return _context.Productos.ToList();
     }
 
-    public Producto ObtenerPorId(int id)
-    {
-        var producto = _context.Productos.Find(id);
-        if (producto == null)
-        {
-            throw new KeyNotFoundException($"Producto con el id {id} no encontrado.");
-        }
-        return producto;
-    }
-
+    public Producto ObtenerPorId(int id) => _context.Productos.Find(id)!;
+       
     public void Agregar(Producto producto)
     {
         _context.Productos.Add(producto);
@@ -48,9 +40,13 @@ public class ProductoRepository : IProductoRepository
         _context.SaveChanges();
     }
 
-    public void Eliminar(Producto producto)
+    public void Eliminar(int id)
     {
-        _context.Productos.Remove(producto);
-        _context.SaveChanges();
+        var producto = ObtenerPorId(id);
+        if (producto != null)
+        {
+            _context.Productos.Remove(producto);
+            _context.SaveChanges();
+        }
     }
 }

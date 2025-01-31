@@ -9,16 +9,20 @@ public class ProductController : Controller
 {
     private readonly ILogger<HomeController> _logger;
     private readonly IProductoService _productoService;
+    private const int tamanoPagina = 5;
 
     public ProductController(ILogger<HomeController> logger, IProductoService productoService)
     {
         _logger = logger;
         _productoService = productoService;
     }
-    public IActionResult Index(string searchTerm = "")
+    public IActionResult Index(string searchTerm = "", int pagina = 1)
     {
-        var productos = _productoService.ObtenerTodos(searchTerm);
+        int  totalProductos;
+        var productos = _productoService.ObtenerTodos(searchTerm, pagina, tamanoPagina, out totalProductos);
         ViewBag.SearchTerm = searchTerm;
+        ViewBag.Pagina = pagina;
+        ViewBag.TotalPaginas = (int)Math.Ceiling((double)totalProductos / tamanoPagina);
         return View(productos);
     }
 

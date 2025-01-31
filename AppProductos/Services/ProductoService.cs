@@ -5,7 +5,7 @@ namespace AppProductos.Services;
 
 public interface IProductoService
 {
-    IEnumerable<Producto> ObtenerTodos(string? criterio);
+    IEnumerable<Producto> ObtenerTodos(string? criterio, int pagina, int tamanoPagina, out int totalProductos);
     Producto ObtenerPorId(int id);
     void Agregar(Producto producto);
     void Actualizar(Producto producto);
@@ -22,7 +22,7 @@ public class ProductoService : IProductoService
         _productoRepository = productoRepository;
     }
 
-    public IEnumerable<Producto> ObtenerTodos(string? criterio)
+    public IEnumerable<Producto> ObtenerTodos(string? criterio, int pagina, int tamanoPagina, out int totalProductos)
     {
         var productos = _productoRepository.ObtenerTodos();
 
@@ -36,7 +36,11 @@ public class ProductoService : IProductoService
             
         }
 
-        return productos;
+        totalProductos = productos.Count();
+
+        return productos
+            .Skip((pagina - 1) * tamanoPagina)
+            .Take(tamanoPagina);
     }
 
     public Producto ObtenerPorId(int id)

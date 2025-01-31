@@ -99,7 +99,7 @@ C:\Users\USER\source\repos\NET\AppProductos\obj\Debug\net9.0\AppProductos.genrun
 C:\Users\USER\source\repos\NET\AppProductos\obj\Debug\net9.0\ref\AppProductos.dll
 C:\Users\USER\source\repos\NET\AppProductos\obj\Debug\net9.0\compressed\7h9rsllev7-wrxnuufsx9.gz
 C:\Users\USER\source\repos\NET\AppProductos\obj\Debug\net9.0\compressed\nz76eti68g-wrxnuufsx9.gz
-C:\Users\USER\source\repos\NET\AppProductos\obj\Debug\net9.0\compressed\8a7knzd8ve-mrhns598rr.gz
+C:\Users\USER\source\repos\NET\AppProductos\obj\Debug\net9.0\compressed\8a7knzd8ve-7e5wqf0usj.gz
 C:\Users\USER\source\repos\NET\Profundizacion\AppProductos\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\USER\source\repos\NET\Profundizacion\AppProductos\bin\Debug\net9.0\appsettings.json
 C:\Users\USER\source\repos\NET\Profundizacion\AppProductos\bin\Debug\net9.0\AppProductos.staticwebassets.endpoints.json
@@ -124,7 +124,7 @@ C:\Users\USER\source\repos\NET\Profundizacion\AppProductos\obj\Debug\net9.0\AppP
 C:\Users\USER\source\repos\NET\Profundizacion\AppProductos\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\USER\source\repos\NET\Profundizacion\AppProductos\obj\Debug\net9.0\scopedcss\bundle\AppProductos.styles.css
 C:\Users\USER\source\repos\NET\Profundizacion\AppProductos\obj\Debug\net9.0\scopedcss\projectbundle\AppProductos.bundle.scp.css
-C:\Users\USER\source\repos\NET\Profundizacion\AppProductos\obj\Debug\net9.0\compressed\8a7knzd8ve-mrhns598rr.gz
+C:\Users\USER\source\repos\NET\Profundizacion\AppProductos\obj\Debug\net9.0\compressed\8a7knzd8ve-7e5wqf0usj.gz
 C:\Users\USER\source\repos\NET\Profundizacion\AppProductos\obj\Debug\net9.0\compressed\pfd3yzkv21-61n19gt1b8.gz
 C:\Users\USER\source\repos\NET\Profundizacion\AppProductos\obj\Debug\net9.0\compressed\cl5n2i34p9-xtxxf3hu2r.gz
 C:\Users\USER\source\repos\NET\Profundizacion\AppProductos\obj\Debug\net9.0\compressed\au4ea854po-bqjiyaj88i.gz

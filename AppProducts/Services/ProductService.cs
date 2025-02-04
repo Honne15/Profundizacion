@@ -1,3 +1,4 @@
+using AppProducts.Dtos;
 using AppProducts.Models;
 using AppProducts.Repositories;
 
@@ -13,7 +14,9 @@ namespace AppProducts.Services
         }
 
         public async Task<IEnumerable<Product>> GetAllProductsAsync() => await _productRepository.GetAllAsync();
-        public async Task AddProductAsync(Product product) => await _productRepository.AddAsync(product);
-
+        public async Task<Product?> GetByIdAsync(int id) => await _productRepository.GetByIdAsync(id);
+        public async Task AddProductAsync(ProductDto productDto) => await _productRepository.AddAsync(productDto);
+        public async Task UpdateProductAsync(ProductDto productDto) => await _productRepository.UpdateAsync(productDto);
+        public async Task DeleteProductAsync(int id) => await _productRepository.DeleteAsync(id);
     }
 }

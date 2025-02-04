@@ -1,3 +1,4 @@
+using AppProducts.Dtos;
 using AppProducts.Models;
 using AppProducts.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -21,11 +22,36 @@ namespace AppProducts.Controllers
             return Ok(products);
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Create(Product product)
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(int id)
         {
-            await _productService.AddProductAsync(product);
-            return CreatedAtAction(nameof(GetAll), new { id = product.Id }, product);
+            var product = await _productService.GetByIdAsync(id);
+            if (product == null)
+            {
+                return NotFound();
+            }
+            return Ok(product);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create(ProductDto productDto)
+        {
+            await _productService.AddProductAsync(productDto);
+            return CreatedAtAction(nameof(GetAll), new { id = productDto.Id }, productDto);
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> Update(ProductDto productDto)
+        {
+            await _productService.UpdateProductAsync(productDto);
+            return Ok(productDto);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            await _productService.DeleteProductAsync(id);
+            return Ok();
         }
     }
 }

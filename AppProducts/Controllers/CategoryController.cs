@@ -43,7 +43,7 @@ namespace AppProducts.Controllers
         public async Task<IActionResult> Update(Category category)
         {
             await _categoryService.UpdateCategoryAsync(category);
-            return Ok();
+            return Ok(category);
         }
 
         [HttpDelete("{id}")]

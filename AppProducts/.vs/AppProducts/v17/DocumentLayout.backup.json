@@ -3,28 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\appproducts\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\appproducts\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\appproducts\\repositories\\productdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:repositories\\productdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\appproducts\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\appproducts\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\appproducts\\models\\productdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:models\\productdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\appproducts\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\appproducts\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\appproducts\\controllers\\productdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:controllers\\productdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\appproducts\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\appproducts\\services\\productdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:services\\productdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\appproducts\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\appproducts\\services\\iproductdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:services\\iproductdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\appproducts\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\appproducts\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\appproducts\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\appproducts\\repositories\\iproductdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:repositories\\iproductdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\appproducts\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\appproducts\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\appproducts\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +74,214 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Repositories\\ProductRepository.cs",
-              "RelativeToolTip": "Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "ProductDetailService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Services\\ProductDetailService.cs",
+              "RelativeDocumentMoniker": "Services\\ProductDetailService.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Services\\ProductDetailService.cs",
+              "RelativeToolTip": "Services\\ProductDetailService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABMAAACiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T22:55:51.986Z",
+              "WhenOpened": "2025-02-04T21:26:14.158Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Repositories\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\CategoryRepository.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Repositories\\CategoryRepository.cs",
-              "RelativeToolTip": "Repositories\\CategoryRepository.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "IProductDetailService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Services\\IProductDetailService.cs",
+              "RelativeDocumentMoniker": "Services\\IProductDetailService.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Services\\IProductDetailService.cs",
+              "RelativeToolTip": "Services\\IProductDetailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T22:55:50.061Z",
+              "WhenOpened": "2025-02-04T21:25:30.477Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Repositories\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Repositories\\IProductRepository.cs",
-              "RelativeToolTip": "Repositories\\IProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Services\\ProductService.cs",
+              "RelativeToolTip": "Services\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T22:53:04.987Z",
+              "WhenOpened": "2025-02-04T21:11:03.224Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ICategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Repositories\\ICategoryRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\ICategoryRepository.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Repositories\\ICategoryRepository.cs",
-              "RelativeToolTip": "Repositories\\ICategoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T22:52:43.626Z",
+              "WhenOpened": "2025-02-04T21:14:37.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductDetailRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Repositories\\ProductDetailRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ProductDetailRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Repositories\\ProductDetailRepository.cs",
+              "RelativeToolTip": "Repositories\\ProductDetailRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T21:21:13.304Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "Models\\Category.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Models\\Category.cs",
-              "RelativeToolTip": "Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T22:51:48.974Z",
+              "WhenOpened": "2025-02-04T21:31:03.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductDetail.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Models\\ProductDetail.cs",
+              "RelativeDocumentMoniker": "Models\\ProductDetail.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Models\\ProductDetail.cs",
+              "RelativeToolTip": "Models\\ProductDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T21:31:19.336Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "ProductDetailController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Controllers\\ProductDetailController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductDetailController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Controllers\\ProductDetailController.cs",
+              "RelativeToolTip": "Controllers\\ProductDetailController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAUwCsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T20:36:23.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAgwDQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T21:12:40.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAACgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T21:24:29.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Repositories\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Repositories\\IProductRepository.cs",
+              "RelativeToolTip": "Repositories\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T21:03:51.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Services\\IProductService.cs",
               "RelativeDocumentMoniker": "Services\\IProductService.cs",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Services\\IProductService.cs",
               "RelativeToolTip": "Services\\IProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T22:50:42.456Z",
+              "WhenOpened": "2025-02-04T21:10:23.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IProductDetailRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Repositories\\IProductDetailRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IProductDetailRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Repositories\\IProductDetailRepository.cs",
+              "RelativeToolTip": "Repositories\\IProductDetailRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T21:10:08.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Services\\CategoryService.cs",
+              "RelativeToolTip": "Services\\CategoryService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T21:10:50.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Services\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "Services\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Services\\ICategoryService.cs",
+              "RelativeToolTip": "Services\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T21:04:16.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T21:03:29.032Z",
               "EditorCaption": ""
             }
           ]

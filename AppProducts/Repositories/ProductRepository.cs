@@ -62,7 +62,6 @@ namespace AppProducts.Repositories
 
             productExist.Name = productDto.Name;
             productExist.Price = productDto.Price;
-            productExist.CategoryId = productDto.CategoryId;
 
             if(productDto.ProductDetail != null)
             {

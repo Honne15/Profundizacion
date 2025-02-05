@@ -15,8 +15,6 @@ builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
-builder.Services.AddScoped<IProductDetailRepository, ProductDetailRepository>();
-builder.Services.AddScoped<IProductDetailService, ProductDetailService>();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();

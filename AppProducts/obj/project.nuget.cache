@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "90MIrs1fWVU=",
+  "dgSpecHash": "iP1Cq98l/hc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProducts\\AppProducts.csproj",
+  "projectFilePath": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\AppProducts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\aspire.npgsql.entityframeworkcore.postgresql\\9.0.0\\aspire.npgsql.entityframeworkcore.postgresql.9.0.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

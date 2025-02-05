@@ -1,5 +1,4 @@
 using AppProducts.Dtos;
-using AppProducts.Models;
 using AppProducts.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -41,9 +40,9 @@ namespace AppProducts.Controllers
         }
 
         [HttpPut]
-        public async Task<IActionResult> Update(ProductDto productDto)
+        public async Task<IActionResult> Update(int id, ProductDto productDto)
         {
-            await _productService.UpdateProductAsync(productDto);
+            await _productService.UpdateProductAsync(id, productDto);
             return Ok(productDto);
         }
 

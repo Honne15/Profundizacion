@@ -6,5 +6,7 @@ namespace AppProducts.Dtos
         public string Name { get; set; } = string.Empty;
         public decimal Price { get; set; }
         public int CategoryId { get; set; }
+        public CategoryDto? Category { get; set; }
+        public ProductDetailDto? ProductDetail { get; set; }
     }
 }

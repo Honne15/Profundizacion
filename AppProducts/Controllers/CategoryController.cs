@@ -1,4 +1,4 @@
-using AppProducts.Models;
+using AppProducts.Dtos;
 using AppProducts.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -33,17 +33,17 @@ namespace AppProducts.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(Category category)
+        public async Task<IActionResult> Create(CategoryDto categoryDto)
         {
-            await _categoryService.AddCategoryAsync(category);
-            return CreatedAtAction(nameof(GetById), new { id = category.Id }, category);
+            await _categoryService.AddCategoryAsync(categoryDto);
+            return CreatedAtAction(nameof(GetById), new { id = categoryDto.Id }, categoryDto);
         }
 
         [HttpPut]
-        public async Task<IActionResult> Update(Category category)
+        public async Task<IActionResult> Update(int id, CategoryDto categoryDto)
         {
-            await _categoryService.UpdateCategoryAsync(category);
-            return Ok(category);
+            await _categoryService.UpdateCategoryAsync(id, categoryDto);
+            return Ok(categoryDto);
         }
 
         [HttpDelete("{id}")]

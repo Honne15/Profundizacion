@@ -5,10 +5,10 @@ namespace AppProducts.Services
 {
     public interface IProductService
     {
-        Task<IEnumerable<Product>> GetAllProductsAsync();
-        Task<Product?> GetByIdAsync(int id);
+        Task<IEnumerable<ProductDto>> GetAllProductsAsync();
+        Task<ProductDto?> GetByIdAsync(int id);
         Task AddProductAsync(ProductDto productDto);
-        Task UpdateProductAsync(ProductDto productDto);
+        Task UpdateProductAsync(int id, ProductDto productDto);
         Task DeleteProductAsync(int id);
     }
 }

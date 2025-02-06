@@ -12,15 +12,20 @@ namespace AppProducts.Repositories
         {
             _context = context;
         }
-        public async Task<IEnumerable<ProductDto>> GetAllAsync()
+        public async Task<(IEnumerable<Product> items, int totalItems, int totalPages)> GetAllAsync(int page, int size)
         {
-            return await _context.Products
+            var totalItems = await _context.Products.CountAsync();
+            var totalPages = (int)Math.Ceiling((double)totalItems / size);
+            var products = await _context.Products
                 .Include(pd => pd.Category)
                 .Include(pd => pd.ProductDetail)
+                .Skip((page - 1) * size)
+                .Take(size)
                 .ToListAsync();
+            return (products, totalItems, totalPages);
         }
         
-        public async Task<ProductDto?> GetByIdAsync(int id)
+        public async Task<Product?> GetByIdAsync(int id)
         {
             return await _context.Products
                 .Include(pd => pd.Category)
@@ -28,28 +33,13 @@ namespace AppProducts.Repositories
                 .FirstOrDefaultAsync(pd => pd.Id == id);
         }
 
-        public async Task AddAsync(ProductDto productDto)
+        public async Task AddAsync(Product product)
         {
-            var product = new ProductDto
-            {
-                Id = productDto.Id,
-                Name = productDto.Name,
-                Price = productDto.Price,
-                CategoryId = productDto.CategoryId,
-                ProductDetail = productDto.ProductDetail != null ? new ProductDetailDto
-                {
-                    Description = productDto.ProductDetail.Description,
-                    Stock = productDto.ProductDetail.Stock,
-                    Weight = productDto.ProductDetail.Weight,
-                    Dimensions = productDto.ProductDetail.Dimensions
-                } : null
-            };
-
             _context.Products.Add(product);
             await _context.SaveChangesAsync();
         }
 
-        public async Task UpdateAsync(int id, ProductDto productDto)
+        public async Task UpdateAsync(int id, Product product)
         {
             var productExist = await _context.Products
                 .Include(p => p.ProductDetail)
@@ -60,18 +50,16 @@ namespace AppProducts.Repositories
                 throw new KeyNotFoundException($"El producto con ID {id} no existe.");
             }
 
-            productExist.Name = productDto.Name;
-            productExist.Price = productDto.Price;
+            productExist.Name = product.Name;
+            productExist.Price = product.Price;
 
-            if(productDto.ProductDetail != null)
+            productExist.ProductDetail = product.ProductDetail != null ? new ProductDetail
             {
-                productExist.ProductDetail = productExist.ProductDetail ?? new ProductDetailDto();
-                productExist.ProductDetail.Description = productDto.ProductDetail.Description;
-                productExist.ProductDetail.Stock = productDto.ProductDetail.Stock;
-                productExist.ProductDetail.Weight = productDto.ProductDetail.Weight;
-                productExist.ProductDetail.Dimensions = productDto.ProductDetail.Dimensions;
-
-            }
+                Description = product.ProductDetail.Description,
+                Stock = product.ProductDetail.Stock,
+                Weight = product.ProductDetail.Weight,
+                Dimensions = product.ProductDetail.Dimensions
+            } : null;
 
             await _context.SaveChangesAsync();
         }

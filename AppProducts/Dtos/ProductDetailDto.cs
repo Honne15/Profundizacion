@@ -11,8 +11,5 @@ namespace AppProducts.Dtos
         public int Stock { get; set; } = 0;
         public decimal? Weight { get; set; }
         public string? Dimensions { get; set; }
-        
-        [JsonIgnore]
-        public ProductDto? Product { get; set; }
     }
 }

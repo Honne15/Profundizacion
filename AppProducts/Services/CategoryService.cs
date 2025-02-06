@@ -1,4 +1,5 @@
 using AppProducts.Dtos;
+using AppProducts.Models;
 using AppProducts.Repositories;
 
 namespace AppProducts.Services
@@ -12,13 +13,29 @@ namespace AppProducts.Services
             _categoryRepository = categoryRepository;
         }
 
-        public async Task<IEnumerable<CategoryDto>> GetAllCategoriesAsync() => await _categoryRepository.GetAllAsync();
+        public async Task<IEnumerable<Category>> GetAllCategoriesAsync() => await _categoryRepository.GetAllAsync();
         
-        public async Task<CategoryDto?> GetByIdAsync(int id) => await _categoryRepository.GetByIdAsync(id);
+        public async Task<Category?> GetByIdAsync(int id) => await _categoryRepository.GetByIdAsync(id);
 
-        public async Task AddCategoryAsync(CategoryDto categoryDto) => await _categoryRepository.AddAsync(categoryDto);
+        public async Task AddCategoryAsync(CategoryDto categoryDto)
+        {
+            var category = new Category
+            {
+                Name = categoryDto.Name
+            };
+
+            await _categoryRepository.AddAsync(category);
+        } 
        
-       public async Task UpdateCategoryAsync(int id, CategoryDto categoryDto) => await _categoryRepository.UpdateAsync(id, categoryDto);
+       public async Task UpdateCategoryAsync(int id, CategoryDto categoryDto)
+       {
+           var category = new Category
+           {
+               Name = categoryDto.Name
+           };
+
+           await _categoryRepository.UpdateAsync(id, category);
+       }
 
        public async Task DeleteCategoryAsync(int id) => await _categoryRepository.DeleteAsync(id);
 

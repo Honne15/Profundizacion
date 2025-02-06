@@ -1,13 +1,14 @@
 using AppProducts.Dtos;
+using AppProducts.Models;
 
 namespace AppProducts.Repositories
 {
     public interface ICategoryRepository
     {
-        Task<IEnumerable<CategoryDto>> GetAllAsync();
-        Task<CategoryDto?> GetByIdAsync(int id);
-        Task AddAsync(CategoryDto categoryDto);
-        Task UpdateAsync(int id, CategoryDto categoryDto);
+        Task<IEnumerable<Category>> GetAllAsync();
+        Task<Category?> GetByIdAsync(int id);
+        Task AddAsync(Category category);
+        Task UpdateAsync(int id, Category category);
         Task DeleteAsync(int id);
     }
 }

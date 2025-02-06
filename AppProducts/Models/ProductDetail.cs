@@ -11,6 +11,8 @@ namespace AppProducts.Models
         public int Stock {  get; set; } = 0;
         public decimal? Weight { get; set; }
         public string? Dimensions { get; set; }
+        
+        [JsonIgnore]
         public Product? Product { get; set; }
     }
 }

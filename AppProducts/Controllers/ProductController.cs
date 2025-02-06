@@ -15,10 +15,10 @@ namespace AppProducts.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetAll([FromQuery] int page = 1, [FromQuery] int size = 10)
         {
-            var products = await _productService.GetAllProductsAsync();
-            return Ok(products);
+            var (items, totalItems, totalPages) = await _productService.GetAllProductsAsync(page, size);
+            return Ok(new {items, totalItems, totalPages });
         }
 
         [HttpGet("{id}")]
@@ -39,7 +39,7 @@ namespace AppProducts.Controllers
             return CreatedAtAction(nameof(GetAll), new { id = productDto.Id }, productDto);
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, ProductDto productDto)
         {
             await _productService.UpdateProductAsync(id, productDto);

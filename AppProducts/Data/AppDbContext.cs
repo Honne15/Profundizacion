@@ -1,4 +1,4 @@
-using AppProducts.Dtos;
+using AppProducts.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace AppProducts.Data
@@ -7,8 +7,8 @@ namespace AppProducts.Data
     {
         public AppDbContext(DbContextOptions<AppDbContext> options): base(options) { }
 
-        public DbSet<CategoryDto> Categories { get; set; }
-        public DbSet<ProductDto> Products { get; set; }
-        public DbSet<ProductDetailDto> ProductsDetails {  get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<ProductDetail> ProductsDetails {  get; set; }
     }
 }

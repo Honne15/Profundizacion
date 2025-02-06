@@ -1,5 +1,6 @@
 using AppProducts.Data;
 using AppProducts.Dtos;
+using AppProducts.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace AppProducts.Repositories
@@ -12,17 +13,17 @@ namespace AppProducts.Repositories
             _context = context;
         }
 
-        public async Task<IEnumerable<CategoryDto>> GetAllAsync() => await _context.Categories.ToListAsync();
+        public async Task<IEnumerable<Category>> GetAllAsync() => await _context.Categories.ToListAsync();
 
-        public async Task<CategoryDto?> GetByIdAsync(int id) => await _context.Categories.FirstOrDefaultAsync(p => p.Id == id);
+        public async Task<Category?> GetByIdAsync(int id) => await _context.Categories.FirstOrDefaultAsync(p => p.Id == id);
 
-        public async Task AddAsync(CategoryDto categoryDto)
+        public async Task AddAsync(Category category)
         {
-            _context.Categories.Add(categoryDto);
+            _context.Categories.Add(category);
             await _context.SaveChangesAsync();
         }
 
-        public async Task UpdateAsync(int id, CategoryDto categoryDto)
+        public async Task UpdateAsync(int id, Category category)
         {
             var categoryExist = await _context.Categories
                 .FirstOrDefaultAsync(p => p.Id == id);
@@ -32,7 +33,7 @@ namespace AppProducts.Repositories
                 throw new KeyNotFoundException($"La categoria con ID {id} no existe.");
             }
 
-            categoryExist.Name = categoryDto.Name;
+            categoryExist.Name = category.Name;
 
             await _context.SaveChangesAsync();
         }

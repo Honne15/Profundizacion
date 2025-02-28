@@ -14,11 +14,24 @@ namespace AppProducts.Controllers
             _productService = productService;
         }
 
+        [HttpGet("search")]
+        public async Task<IActionResult> Search([FromQuery] string? criterios)
+        {
+            var products = await _productService.Search(criterios);
+
+            if (products == null || !products.Any())
+            {
+                return NotFound("No se encontraron productos que coincidan con los criterios.");
+            }
+            
+            return Ok(products);
+        }
+
         [HttpGet]
         public async Task<IActionResult> GetAll([FromQuery] int page = 1, [FromQuery] int size = 10)
         {
             var (items, totalItems, totalPages) = await _productService.GetAllProductsAsync(page, size);
-            return Ok(new {items, totalItems, totalPages });
+            return Ok(new { items, totalItems, totalPages });
         }
 
         [HttpGet("{id}")]

@@ -1,53 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\",
+  "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProducts\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\appproducts\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\appproducts\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\appproducts\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\appproducts\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\profundizacion\\appproducts\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\appproducts\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\appproducts\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\appproducts\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\appproducts\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\profundizacion\\appproducts\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\appproducts\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\profundizacion\\appproducts\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\profundizacion\\appproducts\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\profundizacion\\appproducts\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\profundizacion\\appproducts\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\profundizacion\\appproducts\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\profundizacion\\appproducts\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\profundizacion\\appproducts\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\appproducts\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\profundizacion\\appproducts\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\appproducts\\dtos\\productdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\profundizacion\\appproducts\\dtos\\productdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:dtos\\productdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\appproducts\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|c:\\users\\user\\source\\repos\\net\\profundizacion\\appproducts\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2122A13B-69F2-3F9B-DEA8-58D7758A8A84}|AppProducts.csproj|solutionrelative:dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -57,79 +57,69 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "DockedWidth": 389,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ProductDto.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Dtos\\ProductDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\ProductDto.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Dtos\\ProductDto.cs",
-              "RelativeToolTip": "Dtos\\ProductDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T18:28:18.29Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAACkAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T18:27:24.01Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Services\\CategoryService.cs",
-              "RelativeDocumentMoniker": "Services\\CategoryService.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Services\\CategoryService.cs",
-              "RelativeToolTip": "Services\\CategoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProducts\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProducts\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAACkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T19:30:02.962Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Repositories\\ProductRepository.cs",
-              "RelativeToolTip": "Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAD8AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T21:14:37.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-05T18:27:24.01Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "Controllers\\CategoryController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAACkAAAAQAAAAAAAAAA==",
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProducts\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProducts\\Services\\CategoryService.cs",
+              "RelativeToolTip": "Services\\CategoryService.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T19:30:24.04Z",
+              "WhenOpened": "2025-02-05T19:30:02.962Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProducts\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProducts\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAD8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T21:14:37.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProducts\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProducts\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T19:30:24.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ICategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Repositories\\ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProducts\\Repositories\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\ICategoryRepository.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Repositories\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProducts\\Repositories\\ICategoryRepository.cs",
               "RelativeToolTip": "Repositories\\ICategoryRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -137,11 +127,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProducts\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProducts\\Services\\ProductService.cs",
+              "RelativeToolTip": "Services\\ProductService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAAEcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T18:27:52.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProducts\\Dtos\\ProductDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProducts\\Dtos\\ProductDto.cs",
+              "RelativeToolTip": "Dtos\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T18:28:18.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Repositories\\CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProducts\\Repositories\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\CategoryRepository.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProducts\\Repositories\\CategoryRepository.cs",
               "RelativeToolTip": "Repositories\\CategoryRepository.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAAAC4AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -149,11 +164,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ICategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Services\\ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProducts\\Services\\ICategoryService.cs",
               "RelativeDocumentMoniker": "Services\\ICategoryService.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Services\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProducts\\Services\\ICategoryService.cs",
               "RelativeToolTip": "Services\\ICategoryService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -161,23 +176,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Services\\ProductService.cs",
-              "RelativeToolTip": "Services\\ProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T18:27:52.747Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
               "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Services\\IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProducts\\Services\\IProductService.cs",
               "RelativeDocumentMoniker": "Services\\IProductService.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Services\\IProductService.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProducts\\Services\\IProductService.cs",
               "RelativeToolTip": "Services\\IProductService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -187,9 +190,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Repositories\\IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProducts\\Repositories\\IProductRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Repositories\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProducts\\Repositories\\IProductRepository.cs",
               "RelativeToolTip": "Repositories\\IProductRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -199,13 +202,37 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "ProductDetailDto.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Dtos\\ProductDetailDto.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProducts\\Dtos\\ProductDetailDto.cs",
               "RelativeDocumentMoniker": "Dtos\\ProductDetailDto.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\AppProducts\\Dtos\\ProductDetailDto.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\NET\\Profundizacion\\AppProducts\\Dtos\\ProductDetailDto.cs",
               "RelativeToolTip": "Dtos\\ProductDetailDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-05T18:37:25.245Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 127,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 71,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

@@ -12,6 +12,14 @@ namespace AppProducts.Repositories
         {
             _context = context;
         }
+
+        public async Task<IEnumerable<Product>> GetProducts()
+        {
+            return await _context.Products
+                .Include(p => p.Category)
+                .Include(p => p.ProductDetail)
+                .ToListAsync();
+        }
         public async Task<(IEnumerable<Product> items, int totalItems, int totalPages)> GetAllAsync(int page, int size)
         {
             var totalItems = await _context.Products.CountAsync();
@@ -24,7 +32,7 @@ namespace AppProducts.Repositories
                 .ToListAsync();
             return (products, totalItems, totalPages);
         }
-        
+
         public async Task<Product?> GetByIdAsync(int id)
         {
             return await _context.Products

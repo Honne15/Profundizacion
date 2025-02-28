@@ -14,11 +14,24 @@ namespace AppProducts.Controllers
             _categoryService = categoryService;
         }
 
-        [HttpGet]
-        public async Task<IActionResult> GetAll()
+        [HttpGet("search")]
+        public async Task<IActionResult> Search([FromQuery] string? criterios)
         {
-            var categories = await _categoryService.GetAllCategoriesAsync();
+            var categories = await _categoryService.Search(criterios);
+
+            if (categories == null || !categories.Any())
+            {
+                return NotFound("No se encontraron categorias que coincidan con los criterios.");
+            }
+            
             return Ok(categories);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAll([FromQuery] int page = 1, [FromQuery] int size = 5)
+        {
+            var (items, totalItems, totalPages) = await _categoryService.GetAllCategoriesAsync(page, size);
+            return Ok(new { items, totalItems, totalPages });
         }
 
         [HttpGet("{id}")]

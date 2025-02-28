@@ -13,7 +13,22 @@ namespace AppProducts.Repositories
             _context = context;
         }
 
-        public async Task<IEnumerable<Category>> GetAllAsync() => await _context.Categories.ToListAsync();
+        public async Task<IEnumerable<Category>> GetCategory()
+        {
+            return await _context.Categories
+                .ToListAsync();
+        }
+
+        public async Task<(IEnumerable<Category> items, int totalItems, int totalPages)> GetAllAsync(int page, int size)
+        {
+            var totalItems = await _context.Categories.CountAsync();
+            var totalPages = (int)Math.Ceiling((double)totalItems / size);
+            var categories = await _context.Categories
+                .Skip((page - 1) * size)
+                .Take(size)
+                .ToListAsync();
+            return (categories, totalItems, totalPages);
+        }
 
         public async Task<Category?> GetByIdAsync(int id) => await _context.Categories.FirstOrDefaultAsync(p => p.Id == id);
 

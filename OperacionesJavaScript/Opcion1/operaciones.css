@@ -1,0 +1,32 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div{
+    margin-bottom: 2%
+}
+
+h1{
+    color: #786dbe;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+button{
+    color: white;
+    font-weight: 520;
+    font-size: 20px;
+    background-color: #786dbe;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    margin: 2px;
+    padding: 5px 4px;
+}
+
+input{
+    border-radius: 10px;
+    border: 1px solid #000000;
+    margin: 2px;
+    padding: 6px 4px;
+    font-size: 20px;
+}

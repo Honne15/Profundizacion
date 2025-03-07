@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeApp</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-indigo-50 min-h-screen flex flex-col items-center p-8">
+    <h1 class="text-5xl font-bold text-indigo-400 hover:text-indigo-500 mb-6 font-mono">Pokemon List</h1>
+    <input type="text" id="searchInput" placeholder="Search Pokemon" class=" rounded-2xl border-2 border-indigo-300 p-3 w-full max-w-md mb-6 focus:outline-none focus:ring-2 focus:ring-pink-300" onkeyup="filterPokemon()">
+    <div id="pokemonList" class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 w-full max-w-6xl"></div></div>
+    <script src="./pokemon.js"></script>
+</body>
+</html>
